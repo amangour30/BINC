@@ -27,7 +27,6 @@ settings = {
     "hidden_layer_dropout"  : 0.0,      # dropout fraction in all hidden layers
 }
 
-
 # initialize the neural network
 network = NeuralNet( settings )
 
