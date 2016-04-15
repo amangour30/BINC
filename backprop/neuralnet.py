@@ -162,6 +162,8 @@ class NeuralNet:
         print "[testing]   input\tresult\ttarget"
         for entry, result, target in zip(test_data, out, test_targets):
             print "[testing]   %s\t%s\t%s" % tuple(map(str, [entry, result, target]))
+		return out
+            
     #end
     
     
